@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: serif;
+  margin: 0px;
+  background-color: #cbe2e7;
+  font-family: sans-serif;
+}
+nav {
+  background-color: #88bac8;
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+a {
+  text-decoration: none;
+  padding: 25px;
+  color: #fffbf4;
+}
+a:hover {
+  background-color: white;
+  color: black;
+}
+.pro {
+  width: 300px;
+}
+.product-container {
+  width: 800px;
+  margin: 0px auto;
+  background-color: #e3f5f9;
+  padding: 10px;
+}
+.product-detail {
+  padding: 10px;
+  width: 400px;
+}
+.row {
+  display: flex;
+  margin: 15px;
+}
+.promo-image {
+  width: 350px;
+}
+.product-image {
+  width: 400px;
+  padding: 20px;
+}
+.promo-code {
+  background-color: #7aa5b2;
+  border: 1px solid black;
+  color: white;
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+}
+.product {
+  display: flex;
+}
+.Cerave {
+  width: 148px;
+}
+.related-product {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: #7aa5b2;
+  width: 190px;
+  text-align: justify;
+  object-fit: cover;
+  position: relative;
+}
+.related-product-name {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 173px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  visibility: hidden;
+  opacity: 0.8;
+}
+.related-product:hover .related-product-name {
+  visibility: visible;
+}
+.footer {
+  background-color: #88bac8;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+}
+h1 {
+  text-align: center;
+}
+.image {
+  width: 100%;
+  border: 1px solid black;
+}
+.main {
+  position: relative;
+}
+.caption {
+  background-color: #191f25;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  visibility: hidden;
+  opacity: 0.75;
+}
+.main:hover .caption {
+  visibility: visible;
+}
+.column {
+  width: 250px;
+  text-align: center;
+}
+.person {
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
